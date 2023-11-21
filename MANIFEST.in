@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include jue_reports *.css
+recursive-include jue_reports *.csv
+recursive-include jue_reports *.html
+recursive-include jue_reports *.ico
+recursive-include jue_reports *.js
+recursive-include jue_reports *.json
+recursive-include jue_reports *.md
+recursive-include jue_reports *.png
+recursive-include jue_reports *.py
+recursive-include jue_reports *.svg
+recursive-include jue_reports *.txt
+recursive-exclude jue_reports *.pyc
